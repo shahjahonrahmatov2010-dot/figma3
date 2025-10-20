@@ -101,6 +101,8 @@
 
     .three_content {
         height: 860px;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
 
@@ -123,9 +125,25 @@
         margin-top: 90px;
     }
 
+
+
+
 .four_content {
     margin-top: -500px;
     text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left3 img {
+    margin-top: -80px;
+    width: 100%;
+}
+
+
+.right3{
+    display: flex;
+    flex-wrap: wrap;
 }
 .right3 button {
     width: 160px;
@@ -136,6 +154,43 @@
     margin-top: 50px;
 }
 
+.left4 {
+    margin-top: 170px;
+}
+
+
+.left4 button {
+    width: 160px;
+    height: 49px;
+    border-radius: 6px;
+    background: #D23166;
+    color: white;
+    margin-top: 50px;
+}
+
+.right5 {
+    margin-top: 200px;
+}
+
+.right5 button {
+    width: 160px;
+    height: 49px;
+    border-radius: 6px;
+    background: #D23166;
+    color: white;
+    margin-top: 50px;
+}
+
+.left5 img {
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+.sec_five {
+display: flex;
+flex-wrap: wrap;
+}
 
 .five_content {
     margin-top: 244px;
@@ -143,12 +198,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
-
 }
 
 .five_right {
     display: flex;
-    flex-direction: row-reverse;
     flex-direction: column;
     justify-content: center;
 }
@@ -168,6 +221,36 @@
 .five_imgs {
     display: flex;
     gap: 10px;
+    width: 100%;
+}
+
+.nav_list1 {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.text {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 280px;
+}
+
+.text button {
+    width: 160px;
+    height: 49px;
+    border-radius: 6px;
+    background: #D23166;
+    color: white;
+    margin-top: 50px;
+}
+
+
+.text {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 280px;
 }
 
 

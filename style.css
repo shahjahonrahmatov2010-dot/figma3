@@ -203,8 +203,6 @@
 
 
 .four_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     margin-top: -500px;
     text-align: left;
 }
@@ -256,12 +254,15 @@
 
 .sec_five {
     background: #F8EDF0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .five_content {
     margin-top: 244px;
     border-radius: 20px;
     display: flex;
+    flex-wrap: wrap;
     gap: 60px;
 }
 
@@ -296,7 +297,7 @@
 .text {
     align-items: center;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
     padding: 280px;
 }
 

@@ -193,18 +193,14 @@
     height: 1px;
 }
 
-.four_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    gap: 30px;
-    padding-bottom: 55px;
-}
 
 
 
 .four_content {
     margin-top: -500px;
     text-align: left;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .left3 img {
