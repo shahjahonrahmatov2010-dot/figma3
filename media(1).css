@@ -1,0 +1,174 @@
+@media(max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+
+    .header {
+        height: 100vh;
+    }
+
+    .nav_list {
+        display: none;
+    }
+
+    .nav_right button {
+        width: 120px;
+        height: 40px;
+        border-radius: 2px;
+    }
+
+    .hero_content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero_content h1 {
+        font-size: 28px;
+        padding-top: 10px;
+        padding-bottom: 12px;
+        margin-top: 0px;
+        line-height: 130%;
+    }
+
+    .left1 h4 {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 120%;
+
+    }
+
+
+    .left1 button {
+        width: 120px;
+        height: 40px;
+        border-radius: 2px;
+        margin: 20px 0 0 0;
+        border: none;
+    }
+
+    .right1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .right1 img {
+        height: 230px;
+        margin: auto;
+    }
+
+    .one_content {
+        grid-template-columns: 1fr;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 0px;
+        gap: 20px;
+        height: max-content;
+    }
+
+
+
+    .two_content {
+        margin-top: 60px;
+        height: max-content;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+    .left2 {
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .left2 h1 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .left2 button {
+        width: 120px;
+        height: 40px;
+        border-radius: 2px;
+        margin: 20px 0;
+        border: none;
+    }
+
+
+    .three_content {
+        height: 860px;
+    }
+
+
+    .header2 ul {
+        display: flex;
+        justify-content: center;
+        /* O'rtaga */
+        gap: 20px;
+        /* Oralig' */
+        padding: 0;
+        list-style: none;
+        margin-top: 80px;
+        text-wrap: nowrap;
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .header2 h1 {
+        text-align: center;
+        margin-top: 90px;
+    }
+
+.four_content {
+    margin-top: -500px;
+    text-align: left;
+}
+.right3 button {
+    width: 160px;
+    height: 49px;
+    border-radius: 6px;
+    background: #D23166;
+    color: white;
+    margin-top: 50px;
+}
+
+
+.five_content {
+    margin-top: 244px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+
+}
+
+.five_right {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.five_right h2 {
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0%;
+}
+
+.five_left {
+    margin-top: 100px;
+}
+
+.five_imgs {
+    display: flex;
+    gap: 10px;
+}
+
+
+}

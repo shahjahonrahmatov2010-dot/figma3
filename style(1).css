@@ -194,8 +194,8 @@
 }
 
 .four_content {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
     gap: 30px;
     padding-bottom: 55px;
 }
@@ -203,8 +203,6 @@
 
 
 .four_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     margin-top: -500px;
     text-align: left;
 }
@@ -213,6 +211,11 @@
     margin-top: -80px;
 }
 
+
+.right3{
+    display: flex;
+    flex-wrap: wrap;
+}
 .right3 button {
     width: 160px;
     height: 49px;
